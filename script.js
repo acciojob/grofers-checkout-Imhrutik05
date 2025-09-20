@@ -15,7 +15,7 @@ const getSum = () => {
 	
 	// create the new row
 	let row = document.createElement("tr");
-	row.innerHTML = `<tr><td>Total</td><td>${sum}</td></tr>`;
+	row.innerHTML = `<tr><td>Total</td><td id="ans">${sum}</td></tr>`;
 
 	// append the row to table
 	const table = document.querySelector("table");
